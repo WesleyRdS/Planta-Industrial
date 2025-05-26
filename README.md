@@ -1,4 +1,4 @@
- Sistema de Controle Industrial de Corte de Madeira
+# Sistema de Controle Industrial de Corte de Madeira
 
 Este relatório técnico detalha o desenvolvimento de um sistema de controle industrial para a automação do processo de corte de blocos de madeira padronizados. O projeto foi implementado utilizando dois microcontroladores **Arduino Nano** com ênfase  na **programação a nível de registrador em linguagem C**, com exceções pontuais para a comunicação I2C e o controle do display LCD.
 
