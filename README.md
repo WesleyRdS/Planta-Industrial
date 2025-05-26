@@ -48,8 +48,6 @@ O Arduino Supervisor atua como a interface de gerenciamento da planta industrial
 * **Timer para Atualização:** O **Timer 2** é configurado em modo CTC (`TIMER2_COMPA_vect`) para gerar interrupções a cada 1ms, controlando a frequência de leitura do ADC (a cada 1000ms) e, consequentemente, a frequência de envio/recebimento de dados.
 * **Monitoramento Serial (UART):** A comunicação UART é configurada a nível de registrador (`USART_Init`, `USART_Transmit`, `Serial_Print`, `Serial_Println`) para depuração e exibição das informações no Monitor Serial.
 
-O datasheet do supervisor pode ser visualizado abaixo:
-![Datasheet do supervisor](datasheets/Sheet_2.png)
 
 ### 2. Arduino 2 (Chão de Fábrica)
 
@@ -85,6 +83,4 @@ A biblioteca `GPIO_Config.h` é o coração da implementação a nível de regis
 * **`Ultrassonic_Read()`:** Implementa a leitura do sensor ultrassônico HC-SR04, gerando o pulso de trigger e medindo o tempo do pulso de echo para calcular a distância, manipulando diretamente os pinos via registradores.
 
 * 
-O datasheet do chão de fabrica pode ser visualizado abaixo:
-![Datasheet do supervisor](datasheets/Sheet_1.png)
 
