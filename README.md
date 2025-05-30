@@ -203,6 +203,13 @@ cd controle-planta-industrial
 4. **Monitoramento**: Verificação contínua de sensores
 5. **Segurança**: Parada automática em situações críticas
 
+## Vídeo demonstrativo
+
+
+https://github.com/user-attachments/assets/ca21ffa6-4283-452d-b026-d008cb7b4c7b
+
+
+
 ---
 
 **Universidade Estadual de Feira de Santana - UEFS**  
