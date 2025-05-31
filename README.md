@@ -84,7 +84,6 @@ A biblioteca `GPIO_Config.h` é o coração da implementação a nível de regis
 * **Funções TWI (I2C) a nível de Registrador (Comentadas):** Embora o projeto final utilize a biblioteca `Wire.h`, as funções comentadas na biblioteca `GPIO_Config.h` tem uma implementação completa do protocolo I2C a nível de registrador, porém durante os testes apresentou alguns problemas de funcionamento então foram deixadas de lado.
 * **`Ultrassonic_Read()`:** Implementa a leitura do sensor ultrassônico HC-SR04, gerando o pulso de trigger e medindo o tempo do pulso de echo para calcular a distância, manipulando diretamente os pinos via registradores.
 
-* 
 O datasheet do chão de fabrica pode ser visualizado abaixo:
 ![Datasheet do supervisor](datasheets/Sheet_1.png)
 
